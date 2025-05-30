@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Career Resource Request Form</title>
+  <style>
+        h1 {
+      color: #2a7ae2;
+      text-align: center;
+    }
+        button {
+background-color: #2a7ae2;}
+      
+        </style>
+</head>
+<body>
+
+  <h1>Career Resource Request Form</h1>
+  <p>Please enter the following details:</p>
+
+  <form>
+    <label for="Name">Enter your name</label>
+    <input type="text" id="Name" name="Name"><br><br>
+
+    <label for="roll">Enter your Roll Number</label>
+    <input type="text" id="roll" name="roll"><br><br>
+
+    <label for="year">Year of Graduation</label>
+    <input type="text" id="year" name="year"><br><br>
+
+    <label for="branch">Select your Department</label>
+    <select id="branch" name="branch">
+      <option value="CSE">CSE</option>
+      <option value="ME">ME</option>
+      <option value="MT">MT</option>
+      <option value="EE">EE</option>
+      <option value="ECE">ECE</option>
+      <option value="DSAI">DSAI</option>
+      <option value="MSME">MSME</option>
+    </select><br><br>
+
+    <label for="help">Type of Help Needed</label>
+    <select id="help" name="help">
+      <option value="resume">Resume Review</option>
+      <option value="mock-interview">Mock Interview</option>
+      <option value="internship">Internship</option>
+      <option value="company-prep">Company Prep</option>
+      <option value="career-counseling">Career Counseling</option>
+    </select><br><br>
+
+   <label for="company">Preferred Companies </label>
+   <input type="text" id="company" name="company"><br><br>
+
+    <label for="feed">Additional Requests</label>
+    <textarea id="feed" name="feed" rows="4"></textarea><br><br>
+
+    <button type="submit">Submit Request</button>
+     <button type="reset">Reset Form</button>
+
+  </form>
+
+</body>
+</html>
