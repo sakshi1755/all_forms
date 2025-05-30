@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>IIT Bhilai Travel Request Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>IIT Bhilai Travel Request Form</h1>
+        <form action="">
+            <label for="fname">Name :</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="rollno">Roll No/ Employee ID :</label>
+            <input type="number" name="rollno" id="rollno" maxlength="10"><br><br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="ToT">Type of Travel :</label>
+            <select name="ToT" id="ToT">
+                <option value="Academic">Academic</option>
+                <option value="Conference">Conference</option>
+                <option value="Resaearch">Resaearch</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label for="pot">Purpose of Travel :</label>
+            <textarea name="pot" id="pot" cols="30" rows="10"></textarea><br><br>
+            <label for="stdate">Start Date :</label>
+            <input type="date" name="stdate" id="stdate"><br><br>
+            <label for="endate">End Date :</label>
+            <input type="date" name="endate" id="endate"><br><br>
+            <label for="destination">Destination :</label>
+            <input type="text" name="destination" id="destination"><br><br>
+            <label for="mode">Mode of Travel :</label>
+            <select name="mode" id="mode">
+                <option value="Train">Train</option>
+                <option value="Flight">Flight</option>
+                <option value="Bus">Bus</option>
+                <option value="personal vechile">personal vechile</option>
+            </select><br><br>
+            <label for="fnd"> Funding Required :</label>
+            <input type="radio" name="fnd" id="fnd" value="Yes"> Yes
+            <input type="radio" name="fnd" id="fnd" value="No"> No<br><br>
+            <label for="fndsrc">Funding Source (optional) :</label>
+            <input type="text" name="fndsrc" id="fndsrc"><br><br>
+            <label for="doc_upld">Document Upload :</label>
+            <input type="file" name="doc_upld" id="doc_upld"><br><br>
+            <input type="button" value="Submit">
+            
+        </form>
+    </div>
+</body>
+</html>
