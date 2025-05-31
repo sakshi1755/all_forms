@@ -1,0 +1,60 @@
+ * {
+     color: rgb(40, 28, 0);
+ }
+
+ h2 {
+     text-align: center;
+     background-color: #e8f5e9;
+     padding: 15px;
+     margin: 50px;
+     margin-bottom: 10px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+ label{
+    display: block;
+    padding:3px;
+    margin:2px
+ }
+ form {
+     background-color:#e8f5e9;
+     padding: 30px;
+     border-radius: 8px;
+     margin: 50px;
+     margin-top: 10px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+.radio label,input{
+    display:inline;
+}
+p{
+    padding:0;
+    margin-bottom: 1px;
+}
+input[type="radio"],select{
+    cursor:pointer;
+}
+button[type="submit"]{
+     background-color: #9efca1;
+     margin:6px;
+     color: black;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+ button[type="submit"]:hover{
+     background-color: #70e274;
+     margin:6px;
+     color: white;
+ }
+button[type="reset"]{
+     background-color: #9e9e94;
+     margin:5px;
+     color: black;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+ button[type="reset"]:hover{
+     background-color: #757575;
+     margin:6px;
+     color: white;
+ }
