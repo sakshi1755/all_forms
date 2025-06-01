@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 254, 254);
+}
+h1{
+  font-size: 40px;
+}
+h3{
+  font-size: 20px;
+  position: relative;
+  left :510px
+}
+form{
+  border-style: outset;
+  border-radius: 10px;
+  padding:20px;
+  background-color: rgb(242, 244, 247);
+  margin-left: 500px;
+  margin-right: 500px;
+  box-shadow: rgb(226, 233, 233);
+}
+button:hover{
+  background-color: orange;
+}
+button:active{
+  background-color: blue;
+}
+input, select, button {
+  width: 95%;
+  padding: 5px;
+  border-style: outset;
+  background-color: rgb(242, 244, 247);
+  font-size: 1rem;
+}
+input{
+  border-left: rgb(242, 244, 247);
+  border-right: rgb(242, 244, 247);
+  border-top: rgb(242, 244, 247);
+}

@@ -4,14 +4,15 @@
 <html lang="en-IN">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>College Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body >
 
-    <h1 style="color: rgb(18, 36, 198);text-align: center;">Student Feedback Form</h1>
-    <br>
-    <br>
+    <h1 style="color: rgb(18, 36, 198);text-align: center;">College Feedback Form</h1>
     <h3>Please enter the following details:</h3>
 
   <form>
@@ -26,12 +27,12 @@
     <br>
 
     <label for="student_id">Student ID:</label>
-    <input type="text" id="student_id" name="student_id" aria-placeholder="123456" required>
+    <input type="text" id="student_id" name="student_id" placeholder="123456" required>
     <br>
     <br>
 
     <label for="branch">Select your Branch</label>
-    <select id="branch" name="branch">
+    <select id="branch" name="branch" required>
       <option value="CSE">CSE</option>
       <option value="DSAI">DSAI</option>
       <option value="EE">EE</option>
@@ -44,25 +45,25 @@
     <br>
 
     <label for="mess">Mess Feedback:</label>
-    <input type="text" id="mess" name="mess">
+    <input type="text" id="mess" name="mess" required>
     <br>
     <br>
     
 
     <label for="hostel">hostel Feedback:</label>
-    <input type="text" id="hostel" name="hostel">
+    <input type="text" id="hostel" name="hostel" required>
     <br>
     <br>
 
 
     <label for="acad">Academic Feedback:</label>
-    <input type="text" id="acad" name="acad">
+    <input type="text" id="acad" name="acad" required>
     <br>
     <br>
     
 
     <label for="suggestions">Select the suggestion</label>
-    <select id="suggestions" name="suggestions">
+    <select id="suggestions" name="suggestions" required>
       <option value="mess">mess</option>
       <option value="hostel">hostel</option>
       <option value="Academics">Academics</option>
@@ -72,12 +73,12 @@
     <br>
 
 
-    <label for="other">Suggestions:</label>
-    <input type="text" id="other" name="other" >
+    <label for="sugg">Suggestions:</label>
+    <input type="text" id="sugg" name="sugg" required >
     <br>
     <br>
 
-    <button type="submit" style="background-color: rgb(241, 195, 69);">Submit</button>
+    <button type="submit" style="background-color: rgb(241, 195, 69);" >Submit</button>
   </form>
 
 </body>
