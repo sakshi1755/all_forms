@@ -1,0 +1,57 @@
+body {
+    font-family: "roboto", sans-serif;
+    background-color: #c9ffa8;
+    padding: 20px;
+}
+
+h1,p {
+    color: #2c3e50;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="veg"],
+label[for="non_veg"] {
+    font-weight: normal;
+}
+
+input[type="submit"] {
+    background-color: #016720;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #afca00;
+    color:black;
+}
