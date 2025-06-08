@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+    <h2>IIT BHILAI COMPLAINT FORM</h2>
+    <form action="">
+            <label for="name">Name</label>
+            <input required type="text" name="name" id="name">
+        
+        
+            <label for="ID">College ID</label>
+            <input required type="text" name="ID" id="ID">
+        
+
+            <label for="email">Email-ID</label>
+            <input required type="email" name="email" id="email">
+        
+
+            <label for="batch">Select your batch</label>
+            <select name="batch" id="batch" required>
+                <option value="" selected hidden disabled>Batch</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+        
+            <label for="Department">Choose Your Department</label>
+            <select name="Department" id="Department" required>
+                <option value="" selected disabled hidden>Departments</option>
+                <option value="cse">Computer Science Engineering</option>
+                <option value="dsai">Data Science and Machine Learning</option>
+                <option value="ece">Electronics Engineering</option>
+                <option value="Electrical">Electrical Engineering</option>
+                <option value="Mechanical">Mechanical Engineering</option>
+                <option value="Mechatronics">Mechatronics Engineering</option>
+                <option value="Metallurgy">Metallurgy Engineering</option>
+                <option value="Other">Other</option>
+            </select>
+        
+
+            <label for="category">Complaint Category</label>
+            <select name="category" id="category" required>
+                <option value="" selected disabled hidden>Choose Category</option>
+                <option value="Hostel">Hostel Facilities</option>
+                <option value="mess">Mess/Food</option>
+                <option value="acads">Academics</option>
+                <option value="administration">Administration</option>
+                <option value="Internet">Network Problem</option>
+                <option value="Other">Other Issues</option>
+        </select>
+    
+
+            <label for="complaint">Explain Your Issue</label>
+            <textarea required name="complaint" id="complaint"></textarea>
+
+        <input class="btn" type="submit" value="Submit">
+    </form>
+</body>
+</html>

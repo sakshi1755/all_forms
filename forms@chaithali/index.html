@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Confirmation Form</title>
+    <style>
+        .bold {
+            font-weight: bold;
+            margin: 15px;
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        .btn {
+            font-size: 17px;
+            border-radius: 5px;
+            background-color: black;
+            color: #ffffff;
+            border-width: 0px;
+            height: 25px;
+            width: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h1>IIT BHILAI</h1>
+    <h2>FEE CONFIRMATION FORM</h2>
+    <form>
+    <div style="text-align: center;">
+        <label for="name" class="bold" style="margin-bottom: 30px;">Full Name</label>
+        <input type="text" id="name" placeholder="Registered Name" required/>
+        <br><br>
+        <label for="idnumber" class="bold">ID Number</label>
+        <input type="text" id="idnumber" placeholder="ID Number" required />
+        <br><br>
+        <label for="email" class="bold">Email ID</label>
+        <input type="text" id="email" placeholder="yourname@iitbhilai.ac.in" required/>
+        <br><br>
+        <label for="payment" class="bold">Payment Method</label>
+        <select id="payment" required>
+            <option value="">--Select--</option>
+            <option>UPI</option>
+            <option>Net Banking</option>
+            <option>Credit Card</option>
+        </select>
+        <br><br>
+        <label for="transactionid" class="bold">Transaction ID</label>
+        <input type="text" id="transactionid" placeholder="Transaction ID" required/>
+        <br><br>
+        <label for="Amount" class="bold">Amount Paid</label>
+        <input type="text" id="Amount" placeholder="Amount Paid" required/>
+        <br><br>
+        <label for="receipt" class="bold">Upload Receipt</label>
+        <input type="file" id="receipt" placeholder="Receipt" required />
+        <br><br>
+        <label for="date" class="bold">Payment Date</label>
+        <input type="date" id="date" placeholder="Date of Payment" required/>
+        <br><br>
+        <button type="submit" class="btn">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
