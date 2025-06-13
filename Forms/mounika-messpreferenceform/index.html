@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Bhilai Mess Allotment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IIT Bhilai Mess Allotment Form </h1>
+    <p>Please fill in the following details to allot your preferred mess.</p>
+
+    <form action="/action.php" >
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+
+        <label for="idnumber">ID Number:</label><br>
+        <input type="text" id="idnumber" name="idnumber"><br><br>
+
+        <label for="batch">Batch (Year):</label><br />
+            <select id="batch" name="batch" required>
+               <option value="">Select Batch</option>
+               <option value="1st">1st Year UG</option>
+               <option value="2nd">2nd Year UG</option>
+               <option value="3rd">3rd Year UG</option>
+               <option value="4th">4th Year UG</option>
+               <option value="pg">PG</option>
+          </select><br><br>
+
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option value="">Select</option>
+            <option value="cse">Computer Science and Engineering (CSE)</option>
+            <option value="dsai">Data Science and Artificial Intelligence (DSAI)</option>
+            <option value="ece">Electronics and Communication Engineering (ECE)</option>
+            <option value="ee">Electrical Engineering (EE)</option>
+            <option value="mech">Mechanical Engineering (ME)</option>
+            <option value="msme">Materials Science and Metallurgical Engineering (MSME)</option>
+            <option value="mt">Mechatronics(MT)</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="mess">Preferred Mess:</label><br>
+        <select id="mess" name="mess">
+            <option value="">Select</option>
+            <option value="sri_sai">Sri Sai Mess</option>
+            <option value="galav">Galav Mess</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Food Preference:</label><br>
+        <input type="radio" id="veg" name="food_type" value="veg">
+        <label for="veg">Veg</label><br>
+        <input type="radio" id="non_veg" name="food_type" value="non_veg">
+        <label for="non_veg">Non-Veg</label><br><br>
+
+        <label for="remarks">Remarks (if any):</label><br>
+        <textarea id="remarks" name="remarks" rows="4" cols="50" placeholder="Any special request or info..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
